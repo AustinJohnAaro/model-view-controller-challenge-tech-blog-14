@@ -1,5 +1,5 @@
 {
-    "name": "mvc-tech-blog",
+    "name": "model-view-controller-challenge-tech-blog",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -10,14 +10,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/nystephens/mvc-tech-blog.git"
+      "url": "git+https://github.com/AustinJohnAaro/model-view-controller-challenge-tech-blog.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/nystephens/mvc-tech-blog/issues"
+      "url": "https://github.com/AustinJohnAaro/model-view-controller-challenge-tech-blog/issues"
     },
-    "homepage": "https://github.com/nystephens/mvc-tech-blog#readme",
+    "homepage": "https://github.com/AustinJohnAaro/model-view-controller-challenge-tech-blog#readme",
     "dependencies": {
       "bcrypt": "^5.0.1",
       "connect-session-sequelize": "^7.1.1",
