@@ -27,4 +27,11 @@ async function commentFormHandler(event) {
     }
 };
 
+var app = express();
+var PORT = process.env.PORT || 3001;
+
+app.listen(process.env.PORT || 3001, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+}); 
+
 document.querySelector('.comment-form').addEventListener('submit', commentFormHandler); 
